@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/student_corner.css">
+   
+   <!--Font family-->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+
+    <title>Document</title>
+</head>
+<body class="bg-[#e6e6e6]">
+    <nav>
+        <nav class="shadow bg-white fixed top-0 left-0 flex h-[50px] w-full " >
+            <div class=" container mt-6    flex justify-between items-center" >
+                <div class="justify-start pl-4  w-auto  mb-6"><!--this is for both screen-->
+                    <a href="Homepage.html"  class="cuser-pointer  flex ">
+                        <img src="material/Logo3.png" class="h-[70px] w-auto mt-[2px]  mb-[6px]  py-2  " alt=" Colink Logo">
+                        <span class="text-[#008AFC] font-bold text-3xl pb-2 pt-6  ">CO</span>
+                        <span class="text-[#1C4483] font-bold text-3xl pb-2 pt-6  ">Link</span>
+                    </a>
+                </div>
+                <div>
+                    <ul class=" hidden md:flex items-center pr-10 text-base font-semibold cuser-pointer text-[#1C4483]">
+                        <li class="hover:bg-gray-200 py-4 px-6">Home</li>
+                        <li class="hover:bg-gray-200 py-4 px-6">Features</li>
+                        <li class="hover:bg-gray-200 py-4 px-6">Blogs</li>
+                        <li class="hover:bg-gray-200 py-4 px-6">Review</li>
+                        <li class="hover:bg-gray-200 py-4 px-6">Our Team</li>
+                        <a href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                        <li class="hover:bg-gray-200 py-4 px-6">contact Us</li>
+                        <li class="hover:bg-gray-200 py-4 px-6">Admin</li>
+                    </ul>
+                </div>           
+                <div class="">
+                    <img src="material/moon.png"  class="h-[40px] mb-[20px] mr-[10px]">
+                </div>
+                <div>
+                    <button class=" hidden md:flex justify-end space-y-4    ">
+                        <img  src="material/mam 2 png.jpg" alt="Sing in logo" class="rounded-full   h-[50px] w-auto mb-6 mr-16  ">
+                    </button>
+                </div>
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 justify-end mb-2 mr-5">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+            </div>
+            <div>
+                <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Home</li></a>
+                    <a id="hLink"> <li class="hover:bg-gray-200 py-4 px-6">Features</li></a>
+                    <a id="hLink"> <li class="hover:bg-gray-200 py-4 px-6">Blogs</li></a>
+                    <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Review</li></a>
+                    <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Our Team</li></a>
+                    <a id="hLink" href="Faq.html"><li class="hover:bg-gray-200 py-4 px-6">FaQ's</li></a>
+                    <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">contact Us</li></a>
+                    <a id="hLink"><li class="hover:bg-gray-200 py-4 px-6">Admin</li></a>      
+                </ul>
+                
+            </div>
+            
+         </nav> 
+    </nav>   
+
+    <section class="h-screen bg-[#444] ">
+        <div class="grid grid-cols-3 ">
+
+            <!--Left side-bar start--> 
+            <div class=" fixed bg-[#e6e6e6] h-screen mt-[50px] w-[220px]">
+                <div class="ml-[35px] mt-[30px]">
+                    <img src="assets/images/Registrar1.jpg" class="h-[150px] w-[150px] p-1   rounded-[80px]
+                     transition hover:-translate-y-1 hover:scale-110 shadow1 " alt="">
+                    <h3 class="ml-[px] mt-[15px]  font2 font-bold">Alpha Club</h3>                    
+                </div>
+                <div class="mt-[55px]   ml-[10px] w-[200px] ">
+                    <a href="#about" >
+                        <h1 class=" text-[#444] px-[70px] py-[8px] text-2xl font-semibold rounded-[25px] shadow1  
+                             ">About</h1>
+                    </a>
+                    <a href="#Eventst" >
+                        <h1 class="mt-4 text-[#444] px-[70px] py-[8px] text-2xl font-semibold rounded-[25px] shadow1  ">Events</h1>
+                    </a>
+                    <a href="#Gallary" >
+                        <h1 class="mt-4 text-[#444] px-[70px] py-[8px] text-2xl font-semibold rounded-[25px] shadow1  ">Gallary</h1>
+                    </a>
+                    <a href="#Team" >
+                        <h1 class="mt-4 text-[#444] px-[70px] py-[8px] text-2xl font-semibold rounded-[25px] shadow1  ">Team</h1>
+                    </a>
+                    <a href="#Massages" >
+                        <h1 class="mt-4  text-[#444]  px-[70px] py-[8px] text-2xl font-semibold rounded-[25px] shadow1  ">Massages</h1>
+                    </a>   
+                    <a href="#Massages" >
+                        <h1 class="mt-4 text-[#444]   px-[70px] py-[8px] text-2xl font-semibold rounded-[25px] shadow1 ">Massages</h1>
+                    </a>                       
+                </div>                    
+            </div>
+            <!--Left side-bar ends--> 
+        
+            <!--About section starts-->            
+            <div class="  bg-[#e6e6e6] h-screen w-[1020px] mt-[50px] ml-[221px]">
+                <h1 class="font1 font-bold text-center pt-[40px]">Literary CLUB</h1>
+                <div class="flex text-xl h-1/4 ml-8 mt-20 font3 font-semibold gap-4" >
+                    <p>Literary Club provides a platform to the students to showcase their
+                         talent beyond books. Literary events are held regularly and are spread over the entire 
+                         academic year. Every year a series of events like English Debate, JAM, Hindi Debate, Rangoli 
+                         Competition, Poster Making Competition, Admad Show, Creative Writing etc. are organised by the 
+                         literary club of the college.
+                         <br>
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem 
+                        sint molestias architecto necessitatibus ratione laboriosam quo facilis 
+                        nam sequi, dolorum assumenda porro nesciunt quod voluptatem. Deserunt eveniet 
+                        cumque impedit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Debitis at iure doloribus nulla corporis distinctio voluptatem blanditiis facilis, 
+                         porro voluptate ab quo neque culpa ullam vitae repellat similique non tenetur?
+                    </p>
+                    <img src="assets/images/L1.jpg" class="h-[300px]  w-[300px] mr-[50px]  " alt="">
+                    
+                </div>
+
+            </div>
+
+            <!--Right side elements --> 
+            <!--Announcements part-->
+            <div class=" fixed inset-y-0 right-0  bg-[#e6e6e6] h-screen mt-[50px] w-[280px] ">
+                <div class=" text-[#444] pl-[50px]  mx-2 py-[8px] mt-2 text-2xl font-semibold rounded-[25px] shadow1 ">
+                    Announcements
+                </div>                
+                    <div class="tabs-group ">
+                        <div class=>
+                            <div class="tabs-container flex ml-[-180px] gap-4  w-[50px] ">
+                                <div class="tabs text-[#444] mt-2  mb-2 px-[2px] pr-[65px] w-[20px] rounded-[20px] shadow2 text-xl font-semibold ">
+                                   News
+                                </div>
+                                <div class="tabs text-[#444] mt-2  mb-2 px-[2px] pr-[65px] w-[20px] rounded-[20px] shadow2 text-xl font-semibold ">
+                                   Notice
+                                </div>
+                                <div class="tabs text-[#444] mt-2  mb-2 px-[2px] pr-[65px] w-[20px] rounded-[20px] shadow2 text-xl font-semibold ">
+                                   Events
+                                </div>
+                                
+                    
+                                <div class="indicator"></div>
+                            </div>
+                        </div>                      
+                
+                        <div class="tab-content">
+                            <div class="tab-content-item">
+                                <div class="h-[300px] w-[260px] ml-2 shadow2 rounded-[25px] ">
+                                    <div class="ml-[25px]">hi</div>
+                                </div>
+                            
+                                <button class=" text-[#444] mt-2 ml-[120px] h-[40px] w-[140px] rounded-[20px] shadow1 text-xl font-semibold " >
+                                    Read More...</button>
+                            </div>
+                            <div class="tab-content-item">
+                                <div class="h-[300px] w-[260px] ml-2 shadow2 rounded-[25px] ">
+                                    i'm
+                                </div>
+                                <button class=" text-[#444] mt-2 ml-[120px] h-[40px] w-[140px] rounded-[20px] shadow1 text-xl font-semibold " >
+                                    Read More...</button>
+                            </div>
+                            <div class="tab-content-item">
+                                <div class="h-[300px] w-[260px] ml-2 shadow2 rounded-[25px] ">
+                                    Arpan
+                                </div>
+                                <button class=" text-[#444] mt-2 ml-[120px] h-[40px] w-[140px] rounded-[20px] shadow1 text-xl font-semibold " >
+                                    Read More...</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Word of the day part-->
+                    <div class="mt-4">
+                        <div class=" text-[#444] pl-[50px]  mx-2 py-[8px] mt-2 text-2xl font-semibold rounded-[25px] shadow1 ">
+                            Word of the Day
+                        </div>
+                        <div class="h-[100px] mt-4 w-[260px] ml-2 text-center pt-8 shadow2 rounded-[25px] ">
+                            PERNICIOUS | घातक
+                        </div>
+                    </div>
+                           
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--events part-->
+    <section>
+        <div class=" bg-[#e6e6e6] h-screen w-[1040px] ml-[220px] ">
+            <h1 class="font1 font-bold text-center pt-[40px]">Events</h1>   
+            <div class="grid grid-cols-3 grid-flow-rows gap-4 ml-[50px] mt-4 ">
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                
+            </div>
+        </div>      
+    </section>
+
+
+    <!--GALLERY-->
+    <section>
+        <div  class=" bg-[#e6e6e6] h-screen w-[1040px] ml-[220px] " >
+            <h1 class="font1 font-bold text-center pt-[40px]" >gallery</h1>
+            <!--carousel for imgs-->
+            <div class="grid grid-cols-3 grid-flow-rows gap-4 ml-[50px] mt-4 ">
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px] shadow1 "></div>
+                
+            </div>
+
+        </div>
+    </section>
+
+ <!--Team-->
+    <section>
+        <div  class=" bg-[#e6e6e6] h-screen w-[1040px] ml-[220px]">
+            <h1 class="font1 font-bold text-center pt-[40px] ml-[-50px]" >Our Team</h1>
+            <div class="grid grid-cols-3 grid-flow-rows gap-4 ml-[50px] mt-4 ">
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px]  "></div>
+                <div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-full shadow1 ">
+                        <img src="" alt="">
+                    </div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[-25px] mt-[25px]">Faculty Member</a>
+                </div>
+                <div class="h-[250px] w-[250px] mt-4  rounded-[25px]  "></div>
+                <div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-[25px] shadow1 items-center"></div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[px] ">Member1</a>
+                </div>
+                <div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-[25px] shadow1 items-center"></div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[px] ">Member2</a>
+                </div><div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-[25px] shadow1 items-center"></div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[px] ">Member3</a>
+                </div><div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-[25px] shadow1 items-center"></div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[px] ">Member4</a>
+                </div><div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-[25px] shadow1 items-center"></div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[px] ">Member5</a>
+                </div><div class="h-[250px] w-[250px] mt-4  ">
+                    <div class="h-[150px] w-[150px] mt-4  rounded-[25px] shadow1 items-center"></div>
+                    <a href="" class="text-2xl font-semibold font1 ml-[px] ">Member6</a>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+
+    <!--messeges-->
+    <section>
+        <div  class=" bg-[#e6e6e6] h-screen w-[1040px] mt-[200px] ml-[220px]">
+            <h1 class="font1 font-bold text-center pt-[40px] ml-[-50px]" >messeges</h1>
+            <div class="h-[200px] w-[900px] mt-4  rounded-[25px] ml-[100px] shadow2 ">
+                <div class="flex">
+                    <div class="h-[150px] w-[150px] mt-[25px] ml-2 rounded-full shadow2">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="mt-4 ml-[25px]">
+                        <a href="" class="text-2xl font1 font-bold">Arpan Saini</a>
+                        <p class="text-sm font1 font-semibold "> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sequi explicabo nemo voluptate minus </p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="h-[200px] w-[900px] mt-4  rounded-[25px] ml-[100px] shadow2 ">
+                <div class="flex">
+                    <div class="h-[150px] w-[150px] mt-[25px] ml-2 rounded-full shadow2">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="mt-4 ml-[25px]">
+                        <a href="" class="text-2xl font1 font-bold">Sona </a>
+                        <p class="text-sm font1 font-semibold "> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sequi explicabo nemo voluptate minus </p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="h-[200px] w-[900px] mt-4  rounded-[25px] ml-[100px] shadow2 ">
+                <div class="flex">
+                    <div class="h-[150px] w-[150px] mt-[25px] ml-2 rounded-full shadow2">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="mt-4 ml-[25px]">
+                        <a href="" class="text-2xl font1 font-bold">babu</a>
+                        <p class="text-sm font1 font-semibold "> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Sequi explicabo nemo voluptate minus </p>
+                    </div>                    
+                </div>
+            </div>   
+        </div>
+    </section>
+
+
+    <!--Contact us -->
+    <section>
+        <div class=" bg-[#e6e6e6] h-screen w-[1040px] mt-[54px] ml-[220px]">
+            <h1 class="font1 font-bold text-center pt-[40px] ml-[-50px]" >Contact Us</h1>
+
+
+            <div class="grid grid-cols-2 ">
+                <div>
+                    <img src="assets/images/bmen.png" alt="" class="h-[] w-[] mt-[100px] ml-[216px]">
+                </div>
+                <div class="shadow2 h-[580px] w-[500px] ml-[-50px] rounded-2xl">
+                    <div class="mt-12 h-[50px] w-[300px]">
+                        <input type="text" placeholder="    YOUR NAME" class=" mt-[25px] h-[50px] w-[300px] ml-[100px]  bg-[#e6e6e6] rounded-2xl shadow2 ">
+                    </div>
+                    <div class="mt-12 h-[50px] w-[300px]">
+                        <input type="email" placeholder="    Email" class=" mt-[25px] h-[50px] w-[300px] ml-[100px]  bg-[#e6e6e6] rounded-2xl shadow2 ">
+                    </div>
+                    <div class="mt-12 h-[50px] w-[300px]">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="    Type your message here"  class=" mt-[25px] h-[200px] w-[300px] ml-[100px]  bg-[#e6e6e6] rounded-2xl shadow2"></textarea>
+                    </div>
+                    <div  class="mt-[200px] h-[50px] w-[300px] ml-[180px]" >
+                        <a href="" class=" text-2xl font-bold font1   h-[20px] w-[50px]  rounded-2xl shadow2 p-2 "> Submit </a>
+                        
+                    </div>
+                </div>
+            </div>        
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/student_corner.js"></script>
+
+</body>
+</html>

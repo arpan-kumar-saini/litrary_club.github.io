@@ -1,0 +1,44 @@
+:root{
+    --black:#444;
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:.4rem .4rem 1rem #ccc,
+                -.4rem -.4rem 1rem #fff;
+    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+                      -.4rem -.4rem 1rem #fff inset;
+}
+
+.shadow1{
+    box-shadow: var(--box-shadow);
+}
+.shadow2{
+    box-shadow: var(--box-shadow);
+}
+.shadow1:hover{
+    box-shadow: var(--box-shadow-inset);    
+}
+
+.font1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color:var(--black);
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.font2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color:var(--black);
+    line-height: 1.1;
+    text-transform: uppercase;
+
+}
+.font3{
+    font-family: 'Poppins', sans-serif;
+    color:var(--black);
+}
+
+
+/*scroll part*/
+
+  
+ 
